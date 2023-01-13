@@ -5,9 +5,8 @@ public class Start {
         Person person1 = new Person();
 
 
+        System.out.println("Person is " + person1.age + " years old");
         person1.getLifeStage();
-
-        System.out.println("The person is in the " + person1.age + " stage of life");
 
 
     }
